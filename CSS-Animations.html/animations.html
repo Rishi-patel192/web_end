@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        .box{
+            background-color: blueviolet;
+            width: 150px;
+            height: 150px;
+            margin: 20px;
+
+            /* transition-property: transform;
+            transition-duration: 4s;
+            transition-timing-function: ease;
+            transition-delay: 1s; */
+
+            transition: transform 1s ease-in 1s ;
+
+            
+
+        }
+        .box:hover{
+            background-color: aqua;
+            transform: translateX(700px) rotate(360deg);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            Hello World
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p name="text">Hello User</p>
+    <p name="text">Welcome User</p>  
+</body>
+</html>
+<script type="text/javascript">
+    var textArray = document.getElementsByName("text");
+
+    for(index = 0; index<textArray.length; index = index+1)
+    {
+        pElement = textArray[index];
+        pElement.textContent="PWIOI";
+        pElement.style.fontWeight="bold";
+        pElement.style.color="red";
+      
+    }
+
+
+    
+</script>
